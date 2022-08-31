@@ -7,21 +7,25 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
   <header>
 
     <div class="top">
         <img src="images/logo.svg" alt="logo-da-marca">
         <div class="menu">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a class="contact" href="#">Contact</a>
+            <a id="itens" href="#">About</a>
+            <a id="itens" href="#">Services</a>
+            <a id="itens" href="#">Projects</a>
+            <a id="itens" class="contact" href="#">Contact</a>
         </div>
+
+        <img onclick="clickMenu()" class="menu1" src="images/icon-hamburger.svg" alt="menu">
     </div>
 
+
+
     <div class="titulo">
-        <h1>We are creatives</h1>
+        <h1>WE ARE CREATIVES</h1>
         <img src="images/icon-arrow-down.svg" alt="">
     </div>
   </header>
@@ -111,5 +115,8 @@
           </div>
       </div>
   </footer>
+  <script>
+
+  </script>
 </body>
 </html>

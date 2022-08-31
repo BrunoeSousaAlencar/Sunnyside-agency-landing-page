@@ -34,7 +34,7 @@ header{
 .top{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 40px;
 }
 
 div > a{
@@ -51,6 +51,15 @@ div > a:hover{
     border-radius: 30px;
 }
 
+.menu1{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.menu1:hover{
+    background-color: var(--Yellow);
+}
+
 .titulo{
     text-align: center;
     position: relative;
@@ -62,12 +71,28 @@ h1{
     color: var(--White);
     font-weight: 900;
     font-size: 80px;
+    letter-spacing: 10px;
 }
 
 .titulo > img{
     width: 30px;
     position: relative;
     bottom: 20px;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;  
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 .bloco{
@@ -218,6 +243,7 @@ footer{
 
 .rodape > img{
     margin-top: 70px;
+    cursor: pointer;
  }
 
 .rodape-servicos{
@@ -232,6 +258,7 @@ footer{
     margin-right: 20px;
     font-family: 'Barlow', sans-serif;
     color: #2C7564;
+    cursor: pointer;
 }
 
 .rodape-social{
@@ -240,6 +267,7 @@ footer{
 
 .rodape-social img{
     margin: 10px;
+    cursor: pointer;
 }
 
 

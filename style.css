@@ -54,7 +54,7 @@ div > a:hover{
 .titulo{
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 70px;
 }
 
 h1{
@@ -65,7 +65,9 @@ h1{
 }
 
 .titulo > img{
-    width: 20px;
+    width: 30px;
+    position: relative;
+    bottom: 20px;
 }
 
 .bloco{
@@ -94,18 +96,31 @@ h1{
     width: 50%;
 }
 
-.learnMore{
+.learnMore, .learnMore1{
     width: 105px;
     line-height: 7px;
     font-family: 'Fraunces', serif;
-    color: var(--Very-dark-desaturated-blue);
-    border-bottom: 8px solid rgb(248, 248, 105);
+    
     cursor: pointer;
     margin-top: 50px;
 }
 
+.learnMore{
+    color: var(--Very-dark-desaturated-blue);
+    border-bottom: 8px solid rgb(248, 248, 105);
+}
+
+.learnMore1{
+    color: var(--Very-dark-desaturated-blue);
+    border-bottom: 8px solid #fdb7af;
+}
+
 .learnMore:hover{
     border-bottom: 8px solid var(--Yellow);
+}
+
+.learnMore1:hover{
+    border-bottom: 8px solid #F25E5E;
 }
 
 .bloco3{
@@ -146,6 +161,7 @@ h1{
     text-align: center;
     letter-spacing: 2px;
     font-family: 'Fraunces', serif;
+    font-size: 20px;
     color: var(--ark-grayish-blue);
     margin-top: 100px;
 }
@@ -154,6 +170,8 @@ h1{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .clientes > div > img{
@@ -164,8 +182,8 @@ h1{
 .clientes > div > p{
     color: var(--Very-dark-desaturated-blue);
     font-family: 'Barlow', sans-serif;
-    width: 350px;
-    margin: 50px 10px 10px 50px;
+    margin: 50px 10px 50px 10px;
+    color: var(--Very-dark-grayish-blue);
 }
 
 .clientes > div > h4{
@@ -174,7 +192,7 @@ h1{
 
 .client-pro{
     position: relative;
-    right: 15px;
+    color: var(--Grayish-blue);
 }
 
 .clientes > .client{
@@ -182,12 +200,46 @@ h1{
     margin-top: 80px;
 }
 
+footer{
+    background-color: #90D4C5;
+}
+
 .fotos{
     display: flex;
 }
 
 .fotos > img{
-   width: 24.5vw; 
+   width: 25%; 
+}
+.rodape{
+    margin: auto;
+    text-align: center;
+}
+
+.rodape > img{
+    margin-top: 70px;
+ }
+
+.rodape-servicos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.rodape-servicos > p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Barlow', sans-serif;
+    color: #2C7564;
+}
+
+.rodape-social{
+    padding-bottom: 50px;
+}
+
+.rodape-social img{
+    margin: 10px;
 }
 
 

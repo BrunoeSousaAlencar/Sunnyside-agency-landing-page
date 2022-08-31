@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Sunnyside agency landing page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css">
 </head>
 <body onresize="mudouTamanho()">
   <header>
@@ -22,13 +23,20 @@
         <img onclick="clickMenu()" class="menu1" src="images/icon-hamburger.svg" alt="menu">
     </div>
 
-
-
     <div class="titulo">
         <h1>WE ARE CREATIVES</h1>
         <img src="images/icon-arrow-down.svg" alt="">
     </div>
   </header>
+
+  <div class="popup">
+    <ul>
+        <li class="popup-list">About</li>
+        <li class="popup-list">Services</li>
+        <li class="popup-list">Projects</li>
+        <li class="popup-list">contact</li>
+    </ul>
+</div>
 
   <main>
       <div class="bloco">
@@ -115,8 +123,6 @@
           </div>
       </div>
   </footer>
-  <script>
-
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

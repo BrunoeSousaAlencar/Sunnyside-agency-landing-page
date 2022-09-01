@@ -51,38 +51,6 @@ div > a:hover{
     border-radius: 30px;
 }
 
-.menu1{
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.menu1:hover{
-    background-color: var(--Yellow);
-}
-/*////////////////alterer depois//////////////////////////*/
-.popup{
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 300px;
-    height: 180px;
-    padding: 15px;
-    background-color: white;
-    display: none;
-    text-align: center;
-    padding-left: 10px;
-}
-
-.popup-list{
-    list-style-type: none;
-    color: black;
-    text-decoration: none;
-    font-family: 'Barlow', sans-serif;
-}
-/*///////////////////////////////////////////////////////////*/
 .titulo{
     text-align: center;
     position: relative;
@@ -186,6 +154,7 @@ h1{
 }
 
 .bloco3 > div > h3{
+    font-weight: 900;
     font-family: 'Fraunces', serif;
     margin-top: 400px;
 }
@@ -240,6 +209,7 @@ h1{
 
 .client-pro{
     position: relative;
+    bottom: 40px;
     color: var(--Grayish-blue);
 }
 
@@ -282,6 +252,10 @@ footer{
     font-family: 'Barlow', sans-serif;
     color: #2C7564;
     cursor: pointer;
+}
+
+.rodape-servicos > p:hover{
+    color: white;
 }
 
 .rodape-social{

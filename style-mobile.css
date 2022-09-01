@@ -31,10 +31,12 @@
     .menu1{
         border-radius: 5px;
         padding: 5px;
+        cursor: pointer;
     }
+
     
     .menu1:hover{
-        background-color: var(--Yellow);
+        background-color: rgba(255, 255, 255, 0.274);
     }
 
     .popup{
@@ -67,6 +69,7 @@
         position: relative;
         right: 19px;
         cursor: pointer;
+        
     }
 
     .popup-list:hover{
@@ -143,6 +146,12 @@
     .fotos{
         margin-top: 40px;
     }
+
+    .learnMore, .learnMore1{
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -162,6 +171,16 @@
 
     .bloco-titulo{
         text-align: center;
+    }
+
+    .popup{
+        width: 70vw;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .bloco-titulo{
+        margin-right: -100px;
     }
 
 }

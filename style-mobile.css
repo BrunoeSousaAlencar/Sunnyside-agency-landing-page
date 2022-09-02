@@ -99,15 +99,16 @@
     }
 
     .bloco-texto{
-        width: 70vw;
         margin: auto;
     }
 
-    .bloco-titulo > h2{
+    .bloco-titulo{
         margin: auto;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0px 15px 0px 15px;
+        width: 80vw;
+
     }
 
     .bloco3{
@@ -123,6 +124,12 @@
         font-family: 'Fraunces', serif;
         margin-top: 0px;
         padding-top: 400px;
+    }
+
+    .bloco3 > div > p{
+        font-family: 'Barlow', sans-serif;
+        width: 80vw;
+        margin: auto;
     }
 
 
@@ -165,12 +172,9 @@
         margin: 10px;
     }
 
-    .bloco-texto{
-        width: 80vw;
-    }
-
     .bloco-titulo{
         text-align: center;
+        width: 80vw;
     }
 
     .popup{

@@ -91,12 +91,10 @@ h1{
 
 .bloco-titulo{
     margin: auto;
-    padding: 0px 15px 0px 15px;
     width: 420px;
 }
 
 .bloco-titulo > h2{
-    width: 340px;
     font-family: 'Fraunces', serif;
     font-size: 40px;
     color: var(--Very-dark-desaturated-blue);
@@ -264,6 +262,6 @@ footer{
 .rodape-social img{
     margin: 10px;
     cursor: pointer;
+    fill-opacity: var(--White);
 }
-
 

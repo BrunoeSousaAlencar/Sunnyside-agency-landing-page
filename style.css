@@ -56,6 +56,10 @@ div > a:hover{
     top: 70px;
 }
 
+.popup{
+    display: none;
+}
+
 h1{
     font-family: 'Fraunces', serif;
     color: var(--White);

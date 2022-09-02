@@ -91,7 +91,11 @@
 
     .bloco{
         display: contents;
-        flex-direction: column;
+    }
+
+    #primeiro-bloco{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .bloco > img{
@@ -108,7 +112,6 @@
         margin-right: 20px;
         padding: 0px 15px 0px 15px;
         width: 80vw;
-
     }
 
     .bloco3{
@@ -152,6 +155,13 @@
 
     .fotos{
         margin-top: 40px;
+        flex-wrap: wrap;
+    }
+
+    .fotos > img{
+       justify-content: safe;
+       width: 50%;
+       height: 40vw;
     }
 
     .learnMore, .learnMore1{
